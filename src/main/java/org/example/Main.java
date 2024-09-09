@@ -116,6 +116,9 @@ public class Main {
         domicilio1.setNombreCalle("Adolfo Calle");
         domicilio1.setNumero(871);
         entityManager.merge(domicilio1);
+        
+        Factura factura1 = entityManager.find(Factura.class, 1L);
+        entityManager.remove(factura1);
         */
 
 
