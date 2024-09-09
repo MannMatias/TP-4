@@ -1,4 +1,4 @@
-# TP3_DesarrolloSoftware
+# TP4_DesarrolloSoftware
 Este proyecto es una implementación de JPA (Java Persistence API) utilizando la base de datos H2. A continuación, se detallan los pasos para descargar, configurar, y ejecutar el proyecto.
 
 # Prerrequisitos
@@ -54,6 +54,7 @@ Haz clic derecho sobre el archivo Main.java y selecciona Run 'Main.main()'.
 Verificación de los objetos creados:
 
 Después de ejecutar el proyecto, vuelve a la consola de H2.
+Para probar la auditoría se pueden comentar toda la parte del main que crea las tablas y descomentar el ejemplo para actualizar la tabla de domicilio1 y en el archivo de persistence.xml debemos cambiar el "create" por "update".
 
 Ejecuta una consulta para verificar que las tablas y los datos correspondientes han sido creados correctamente:
 sql
